@@ -1,8 +1,8 @@
 Metadata-Version: 1.1
 Name: django-aligo
-Version: 0.1
+Version: 0.1.2
 Summary: A Django app to integrate aligo sms service.
-Home-page: http://www.itechs.io
+Home-page: https://github.com/itechs-io/django-aligo
 Author: Hong Chan Eui
 Author-email: cuhong@itechs.io
 License: BSD-3-Clause
