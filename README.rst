@@ -4,6 +4,10 @@ Django-Aligo
 
 Django-Aligo는 Django에서 알리고 SMS 서비스(https://smartsms.aligo.in)를 손쉽게 연동할 수 있도록 하는 app 입니다.
 
+설치
+-----
+
+
 Quick Start
 ------------
 1. "aligo_sms"를 settings.py의 INSTALLED_APPS에 추가합니다::
