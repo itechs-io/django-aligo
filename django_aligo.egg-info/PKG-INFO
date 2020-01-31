@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: django-aligo
+Version: 0.1
+Summary: A Django app to integrate aligo sms service.
+Home-page: http://www.itechs.io
+Author: Hong Chan Eui
+Author-email: cuhong@itechs.io
+License: BSD-3-Clause
+Description: ===============
+        Django-Aligo
+        ===============
+        
+        Django-Aligo는 Django에서 알리고 SMS 서비스(https://smartsms.aligo.in)를 손쉽게 연동할 수 있도록 하는 app 입니다.
+        
+        Quick Start
+        ------------
+        1. "aligo_sms"를 settings.py의 INSTALLED_APPS에 추가합니다::
+        
+            INSTALLED_APPS = [
+                ...
+                'aligo_sms'
+            ]
+        2. settings 파일에 아래 설정을 지정합니다::
+            DJANGO_ALIGO_IDENTIFIER = `aligo identifer`
+        
+            DJANGO_ALIGO_KEY = `aligo key`
+        
+            DJANGO_ALIGO_DEBUG = False  # 테스트 모드 여부. 기본값 True.
+        
+            DJANGO_ALIGO_SENDER = None # 기본 발신자 번호. 기본값 None
+        
+        3. `python manage.py migrate` 를 실행해 aligo_sms의 모델을 생성합니다.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

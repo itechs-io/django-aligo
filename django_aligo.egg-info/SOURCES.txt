@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_aligo.egg-info/PKG-INFO
+django_aligo.egg-info/SOURCES.txt
+django_aligo.egg-info/dependency_links.txt
+django_aligo.egg-info/top_level.txt
+migrations/0001_initial.py
+migrations/0002_message_result.py
+migrations/0003_auto_20200131_1056.py
+migrations/0004_auto_20200131_1107.py
+migrations/0005_auto_20200131_1130.py
+migrations/__init__.py
