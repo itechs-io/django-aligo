@@ -7,6 +7,7 @@ Django-Aligo는 Django에서 알리고 SMS 서비스(https://smartsms.aligo.in)�
 설치
 -----
 
+pip install django-aligo
 
 Quick Start
 ------------
